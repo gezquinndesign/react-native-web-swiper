@@ -159,7 +159,7 @@ interface SwiperControlsProps {
     /**
      * Custom dot component
      */
-    DotComponent?: React.ComponentType<{ index: number, isActive: boolean, onPress: any }>;
+    DotComponent?: React.ComponentType<{ index: number, isActive: boolean, activeIndex: number, onPress: any }>;
 
     /**
      * Customize prev button title
